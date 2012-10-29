@@ -1,0 +1,6 @@
+body { background: #D3D3D3; text-align: center; min-width:650px; font-family: 'Emblema One'; }
+div#date { font-size: 130px; color: #778899; }
+div#title{ font-size: 50px; color: #8899AA; }
+div#what { text-align: left; }
+div#time { font-size: 100px; color: #778899; }
+a { font-size:11px; color: #778899; }
