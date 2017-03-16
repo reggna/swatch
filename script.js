@@ -26,7 +26,10 @@ function getOrdinalDate() {
 function updateClock() {
   setNewTime();
   var time = getInternetTime();
+  var container = timenode.parentElement;
+  container.removeChild(timenode);
   timenode.nodeValue = time;
+  container.appendChild(timenode);
   document.title = getOrdinalDate() + " - " + time;
 }
 
