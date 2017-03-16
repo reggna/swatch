@@ -65,9 +65,9 @@ window.onload = function(){
   var container = document.createElement('div');
   var what = document.createElement('div');
   what.setAttribute('id', 'what');
-  what.appendChild(createLink('http://en.wikipedia.org/wiki/ISO_8601#Ordinal_dates', 'What is this?'));
+  what.appendChild(createLink('https://en.wikipedia.org/wiki/ISO_8601#Ordinal_dates', 'What is this?'));
   what.appendChild(document.createElement('br'));
-  what.appendChild(createLink('http://en.wikipedia.org/wiki/Swatch_Internet_Time', 'What is that?'));
+  what.appendChild(createLink('https://en.wikipedia.org/wiki/Swatch_Internet_Time', 'What is that?'));
   container.appendChild(what);
 
   var title = document.createElement('div');
